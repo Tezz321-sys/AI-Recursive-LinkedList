@@ -1,0 +1,4 @@
+- Issue: Claude AI initially said tail update block in addRec is correct.
+- Trace shows temp == tail block is actually unreachable dead code.
+- Your analysis traced recursion correctly; Claude backtracked multiple times.
+- Conclusion: Tail update block is dead code; recursion logic otherwise correct.
